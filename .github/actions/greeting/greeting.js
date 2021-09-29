@@ -6,7 +6,7 @@ try {
     const date = new Date();
     if (date.getHours() <= 11) {
         timeOfDay = 'Morning';
-    } else if (date.getHours() > 11 && date.getHours() <= 16) {
+    } else if (date.getHours() > 11 && date.getHours() <= 17) {
         timeOfDay = 'Afternoon';
     } else {
         timeOfDay = 'Evening';
