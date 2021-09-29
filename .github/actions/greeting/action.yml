@@ -1,0 +1,8 @@
+name: "Greeting"
+description: "Outputs a greeting in workflow output"
+outputs:
+  greeting: # id of output
+    description: "Final Greeting"
+runs:
+  using: 'node14'
+  main: 'greeting.js'
