@@ -4,5 +4,5 @@ outputs:
   greeting: # id of output
     description: "Final Greeting"
 runs:
-  using: 'node14'
+  using: 'node12'
   main: 'greeting.js'
